@@ -1,6 +1,6 @@
 {
   "name": "@piex-store/core",
-  "version": "0.0.0-alpha2",
+  "version": "0.0.0-alpha3",
   "description": "piex store core",
   "keywords": [
     "redux",
