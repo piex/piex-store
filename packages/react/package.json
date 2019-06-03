@@ -1,0 +1,41 @@
+{
+  "name": "@piex-store/react",
+  "version": "0.0.1-alpha.1",
+  "description": "piex-store react binding",
+  "keywords": [
+    "redux",
+    "piex-store",
+    "store",
+    "react"
+  ],
+  "author": "foreverzmy <921255465@qq.com>",
+  "homepage": "https://github.com/piex/piex-store#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piex/piex-store.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/piex/piex-store/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.132"
+  }
+}

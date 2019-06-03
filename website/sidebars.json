@@ -1,0 +1,38 @@
+{
+  "docs": {
+    "指南": [
+      "intro/intro",
+      "intro/start",
+      "intro/motivation",
+      "intro/core-concepts",
+      "intro/theory"
+    ]
+  },
+  "api": {
+    "API": [
+      "api/reference",
+      {
+        "type": "subcategory",
+        "label": "Core",
+        "ids": [
+          "api/core/store",
+          "api/core/createStore"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "React",
+        "ids": [
+          "api/react/use-store"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Vue",
+        "ids": [
+          "api/vue/use-store"
+        ]
+      }
+    ]
+  }
+}

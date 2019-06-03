@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "declaration": true,
+    "alwaysStrict": true,
+    "pretty": true,
+    "rootDir": ".",
+    "allowJs": false,
+    "jsx": "react",
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es2017",
+      "es2018.promise"
+    ],
+    "noEmitHelpers": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "suppressExcessPropertyErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [
+      "react",
+      "jest"
+    ],
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@piex-store/core": [
+        "packages/core/lib"
+      ],
+      "@piex-store/react": [
+        "packages/react/lib"
+      ],
+      "@piex-store/vue": [
+        "packages/vue/lib"
+      ],
+      "@piex-store/middleware-redux-devtools": [
+        "packages/middleware-redux-devtools/lib"
+      ]
+    }
+  },
+  "include": [
+    "./packages",
+    "./typings",
+    "./example"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+  ]
+}

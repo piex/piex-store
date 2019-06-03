@@ -1,0 +1,25 @@
+import { ITree } from './store';
+
+export default function generateTree() {
+  const tree: ITree = {
+    0: {
+      id: '0',
+      counter: 0,
+      childIds: [],
+    },
+  };
+
+  for (let i = 1; i < 1000; i++) {
+    const parentId = Math.floor(Math.pow(Math.random(), 2) * i);
+
+    tree[i] = {
+      id: i.toString(),
+      counter: 0,
+      childIds: [],
+    };
+
+    tree[parentId].childIds.push(i.toString());
+  }
+
+  return tree;
+}

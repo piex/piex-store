@@ -1,0 +1,36 @@
+{
+  "name": "@piex-store/plugin-redux-devtools",
+  "version": "0.0.1-alpha.1",
+  "description": "plugin for piex store to use redux devtools",
+  "keywords": [
+    "piex-store",
+    "store",
+    "redux",
+    "devtools",
+    "react"
+  ],
+  "author": "foreverzmy <921255465@qq.com>",
+  "homepage": "https://github.com/piex/piex-store#readme",
+  "license": "MIT",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piex/piex-store.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/piex/piex-store/issues"
+  }
+}
