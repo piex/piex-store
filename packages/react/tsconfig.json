@@ -4,6 +4,7 @@
     "baseUrl": ".",
     "outDir": "lib",
     "rootDir": "src",
+    "noEmit": true
   },
   "include": [
     "./src",
