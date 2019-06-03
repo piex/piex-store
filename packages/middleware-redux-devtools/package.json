@@ -1,13 +1,14 @@
 {
-  "name": "@piex-store/plugin-redux-devtools",
+  "name": "@piex-store/middleware-redux-devtools",
   "version": "0.0.1-alpha.1",
-  "description": "plugin for piex store to use redux devtools",
+  "description": "middleware for piex store to use redux devtools",
   "keywords": [
     "piex-store",
     "store",
     "redux",
     "devtools",
-    "react"
+    "react",
+    "middleware"
   ],
   "author": "foreverzmy <921255465@qq.com>",
   "homepage": "https://github.com/piex/piex-store#readme",
