@@ -1,3 +1,4 @@
 node_module/
 coverage/
 dist/
+rollup.config.js

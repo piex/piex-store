@@ -7,8 +7,11 @@
   "scripts": {
     "dev:todo": "parcel example/todo/index.html",
     "dev:cart": "parcel example/shopping-cart/index.html",
-    "dev:tree": "parcel example/tree-view/index.html"
+    "dev:tree": "parcel example/tree-view/index.html",
+    "build": "node rollup.config.js"
   },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.8.6",
@@ -20,6 +23,7 @@
     "@types/react-dom": "^16.8.4",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
+    "dts-bundle-generator": "^3.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-eslint-plugin": "^2.1.0",
     "eslint-plugin-react": "^7.13.0",
@@ -27,12 +31,16 @@
     "jest": "^24.8.0",
     "lerna": "^3.14.1",
     "parcel-bundler": "^1.12.3",
+    "rollup": "^1.13.1",
+    "rollup-plugin-dts": "^0.15.1",
+    "rollup-plugin-node-resolve": "^5.0.1",
+    "rollup-plugin-typescript": "^1.0.1",
     "sass": "^1.20.1",
     "typescript": "^3.4.5"
   },
   "alias": {
-    "@piex-store/core": "./packages/core/lib",
-    "@piex-store/react": "./packages/react/lib",
-    "@piex-store/middleware-redux-devtools": "./packages/middleware-redux-devtools/lib"
+    "@piex-store/core": "./packages/core/src",
+    "@piex-store/react": "./packages/react/src",
+    "@piex-store/middleware-redux-devtools": "./packages/middleware-redux-devtools/src"
   }
 }

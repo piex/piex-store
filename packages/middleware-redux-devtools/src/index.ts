@@ -1,6 +1,6 @@
-const devTools = window.__REDUX_DEVTOOLS_EXTENSION__;
+const devTools = (window as any).__REDUX_DEVTOOLS_EXTENSION__;
 
-window.__PIEX__STORE__ = {};
+(window as any).__PIEX__STORE__ = {};
 
 const config = {
   features: { pause: true, export: true, test: true },
@@ -16,10 +16,10 @@ if (devTools) {
 
 const devToolMiddleware: any = (getState: any, source: any) => (next: any) => {
   next();
-  window.__PIEX__STORE__ = Object.assign({}, window.__PIEX__STORE__, {
+  (window as any).__PIEX__STORE__ = Object.assign({}, (window as any).__PIEX__STORE__, {
     [source.origin.name]: getState(),
   });
-  devTools && devTools.send(`${source.origin.name}-${source.methodName}`, window.__PIEX__STORE__);
+  devTools && devTools.send(`${source.origin.name}-${source.methodName}`, (window as any).__PIEX__STORE__);
 };
 
 export default devToolMiddleware;

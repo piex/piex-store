@@ -29,7 +29,7 @@
     "url": "git+https://github.com/piex/piex-store.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "tsc": "rm -rf ./lib & tsc"
   },
   "bugs": {
     "url": "https://github.com/piex/piex-store/issues"

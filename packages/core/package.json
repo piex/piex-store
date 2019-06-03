@@ -27,7 +27,7 @@
     "url": "git+https://github.com/piex/piex-store.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "tsc": "rm -rf ./lib & tsc"
   },
   "bugs": {
     "url": "https://github.com/piex/piex-store/issues"
@@ -36,6 +36,6 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.132"
+    "@types/lodash": "^4.14.133"
   }
 }
