@@ -1,6 +1,6 @@
 {
   "name": "@piex-store/react",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.0-alpha2",
   "description": "piex-store react binding",
   "keywords": [
     "redux",
@@ -33,7 +33,6 @@
     "url": "https://github.com/piex/piex-store/issues"
   },
   "dependencies": {
-    "@piex-store/core": "^0.0.1-alpha.1"
-  },
-  "devDependencies": {}
+    "@piex-store/core": "^0.0.0-alpha2"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@piex-store/middleware-redux-devtools",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.0-alpha2",
   "description": "middleware for piex store to use redux devtools",
   "keywords": [
     "piex-store",
