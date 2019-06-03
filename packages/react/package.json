@@ -28,7 +28,7 @@
     "url": "git+https://github.com/piex/piex-store.git"
   },
   "scripts": {
-    "tsc": "rm -rf ./lib & tsc"
+    "tsc": "rm -rf ./lib && tsc"
   },
   "bugs": {
     "url": "https://github.com/piex/piex-store/issues"

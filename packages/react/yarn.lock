@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@piex-store/core@^0.0.1-alpha.1":
-  version "0.0.1-alpha.1"
-  resolved "https://registry.npm.taobao.org/@piex-store/core/download/@piex-store/core-0.0.1-alpha.1.tgz#df90fd7c35e88dc328fdf53c1a6c4c1c3689b1f3"
-  integrity sha1-35D9fDXojcMo/fU8GmxMHDaJsfM=
+"@piex-store/core@^0.0.0-alpha3":
+  version "0.0.0-alpha3"
+  resolved "https://registry.npm.taobao.org/@piex-store/core/download/@piex-store/core-0.0.0-alpha3.tgz#8d7b95ac12ddcf86331e9fc9523e1dee2e532159"
+  integrity sha1-jXuVrBLdz4YzHp/JUj4d7i5TIVk=
   dependencies:
     lodash "^4.17.11"
 
