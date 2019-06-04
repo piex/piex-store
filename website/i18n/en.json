@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A Store Management for React & Vue",
+    "tagline": "同事支持 React 和 Vue 简单的状态管理工具",
     "docs": {
       "api/core/createStore": {
         "title": "createStore",
