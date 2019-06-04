@@ -1,0 +1,120 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>原理 · Piex Store</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;原理&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#原理&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;原理&lt;/h1&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="原理 · Piex Store"/><meta property="og:type" content="website"/><meta property="og:url" content="https://your-docusaurus-test-site.com/"/><meta property="og:description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;原理&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#原理&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;原理&lt;/h1&gt;
+"/><meta property="og:image" content="https://your-docusaurus-test-site.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://your-docusaurus-test-site.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/undefined"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><h2 class="headerTitle">Piex Store</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/intro/intro" target="_self">指南</a></li><li class=""><a href="/docs/api/reference" target="_self">API</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>指南</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">指南</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/intro/intro">简介</a></li><li class="navListItem"><a class="navItem" href="/docs/intro/start">开始</a></li><li class="navListItem"><a class="navItem" href="/docs/intro/motivation">动机</a></li><li class="navListItem"><a class="navItem" href="/docs/intro/core-concepts">核心概念</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/intro/theory">原理</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="原理"></a><a href="#原理" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>原理</h1>
+<p>在 <a href="motivation">动机</a> 里的后半部分介绍了 <code>Piex Store</code> 出现的原因和 API 的构建过程，这里就详细的介绍一下其实现原理。</p>
+<p>在 <a href="https://stackblitz.com/edit/react-ts-global-hooks?file=store%2FuseGlobalState.ts">Demo<sup>1</sup></a> 和 <a href="https://stackblitz.com/edit/react-ts-global-hooks2?file=store%2Fstore.ts">Demo<sup>2</sup></a> 中状态共享的原理是一致的。</p>
+<p>在 <code>Demo1</code> 中，去掉类型的代码如下：</p>
+<pre><code class="hljs css language-ts"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createStore</span>(<span class="hljs-params">state, actions</span>) </span>{
+  <span class="hljs-keyword">let</span> _state = state;
+  <span class="hljs-keyword">const</span> _actions = actions;
+  <span class="hljs-keyword">let</span> _setters = [];
+
+  <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dispatch</span>(<span class="hljs-params">action</span>) </span>{
+    _state = <span class="hljs-keyword">await</span> _actions[action.type](_state, action.payload);
+    _setters.forEach(<span class="hljs-function"><span class="hljs-params">setter</span> =&gt;</span> setter(_state));
+  }
+
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">useStore</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">const</span> [, setState] = useState(_state);
+
+    useEffect(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+      _setters.push(setState);
+      <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> _setters = _setters.filter(<span class="hljs-function"><span class="hljs-params">setter</span> =&gt;</span> setter !== setState);
+    }, []);
+
+    <span class="hljs-keyword">return</span> [_state, dispatch];
+  }
+
+  <span class="hljs-keyword">return</span> { useStore, dispatch };
+}
+</code></pre>
+<p>首先，<code>createStore</code> 会创建一个闭包，闭包里有 <code>_state</code>、<code>_actions</code>、<code>_setters</code> 三个变量。</p>
+<p><code>useStore</code> 是一个 <a href="https://zh-hans.reactjs.org/docs/hooks-custom.html">自定义 hooks</a>，会在组件里创建一个局部状态，初始状态就是闭包变量 <code>_state</code>，同时会把 <code>useState</code> 返回值数组第二个参数 <code>setState</code> 存到 <code>_setters</code>。并返回 <code>_state</code> 变量和 <code>dispatch</code> 方法。</p>
+<p><code>_state</code> 是一个引用类型，可以从中读取当前的状态数据。而 <code>diaspatch</code> 方法可以触发一个 <code>action</code>，返回一个新的 <code>state</code>，这里会把新的 <code>state</code> 赋值给 <code>_state</code>，然后把 <code>_setters</code> 里面存储的 <code>setState</code> 调用一遍。</p>
+<p>我们知道 Hooks 的 <code>setState</code> 方法被调用后会触发组件的更新，这里，每个用到 <code>useStore</code> 的组件的 <code>setState</code> 都会被触发，然后组件会更新，从 <code>_state</code> 中取到最新的状态数据，然后 <code>render</code> 呈现到界面上。</p>
+<p><code>Demo2</code> 的原理与 <code>Demo1</code> 一样，只是写法不同：</p>
+<pre><code class="hljs css language-ts"><span class="hljs-keyword">abstract</span> <span class="hljs-keyword">class</span> Store {
+  readonly state = {};
+  <span class="hljs-keyword">private</span> setters = [];
+
+  <span class="hljs-keyword">public</span> useStore = <span class="hljs-keyword">this</span>._useStore.bind(<span class="hljs-keyword">this</span>);
+
+  <span class="hljs-keyword">private</span> _useStore() {
+    <span class="hljs-keyword">const</span> [, setState] = useState(_state);
+
+    useEffect(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+      <span class="hljs-keyword">this</span>.setters.push(setState);
+
+      <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-keyword">this</span>.setters = <span class="hljs-keyword">this</span>.setters.filter(<span class="hljs-function"><span class="hljs-params">setter</span> =&gt;</span> setter !== setState);
+    }, []);
+
+    <span class="hljs-keyword">return</span> [_state, dispatch];
+  }
+
+  <span class="hljs-keyword">public</span> setState(updater) {
+    <span class="hljs-keyword">this</span>.state = <span class="hljs-built_in">Object</span>.assign({}, <span class="hljs-keyword">this</span>.state, nextState);
+    
+    <span class="hljs-keyword">this</span>.setters.forEach(<span class="hljs-function"><span class="hljs-params">setter</span> =&gt;</span> setter(<span class="hljs-keyword">this</span>.state));
+  }
+}
+</code></pre>
+<p>Demo2 中由 <code>createStore</code> 的闭包变成了 <code>Store</code> 对象，<code>_state</code> 变成了 <code>this.state</code>，<code>_setters</code> 变成了 <code>this.setters</code>，<code>useStore</code> 从一个函数变成了 <code>Store</code> 对象的方法，<code>dispatch</code> 变成了 <code>setState</code>，只是 API 和表现形式上变了，内在逻辑还是一样的。</p>
+<p><code>useStore</code> 是一个自定义 Hooks，生成 <code>setState</code> 存到 <code>this.setters</code>，每次 <code>setState</code> 会生成一个新的 <code>state</code>，触发所有的组件更新。</p>
+<p>Piex Store 的原理就是如此简单，自定义 Hooks 的更新机制实现起来不到二十行代码，却大有可为。</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/intro/core-concepts"><span class="arrow-prev">← </span><span>核心概念</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"></a><div><h5>Docs</h5><a href="/docs/intro/intro">简介</a><a href="/docs/intro/start">开始</a><a href="/docs/api/reference">API</a></div><div><h5>Community</h5></div><div><h5>More</h5><a href="https://github.com/piex/piex-store">GitHub</a><a class="github-button" href="https://github.com/piex/piex-store" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright (c) 2015-present Mervyn Zhang and the Piex Store documentation authors.</section></footer></div></body></html>
