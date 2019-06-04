@@ -19,3 +19,9 @@ sup {
   vertical-align: super;
   font-size: smaller;
 }
+
+iframe {
+  margin: 20px 0;
+  min-height: 200px;
+  width: 100%;
+}

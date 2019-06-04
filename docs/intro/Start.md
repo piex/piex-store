@@ -7,13 +7,13 @@ hide_title: true
 
 ## 开始
 
-这里会从头构建一个最近单的 Counter 示例。
+这里会从头构建一个最简单的 Counter 示例。
 
 > 所有的代码都以 TS 实现。
 
 ### 安装
 
-安装稳定版：
+安装核心库：
 
 ```bash
 npm install @piex-store/core
@@ -71,4 +71,8 @@ console.log(counterStore.state.count); // -> 1
 
 使用过 React 的同学都清楚，直接修改 `state` 的方法是无效的，必须通过 `setState` 来更新 `state` 才会触发 `render`。在这里也是这样，调用 `setState` 后，Piex Store 会更改  `state` 并触发每个 `useStore` 组件的更新。
 
-可以在 [最基本的 Piex Store 计数应用]() 查看源码实现。
+### 示例
+
+<iframe height="500px" src="https://stackblitz.com/edit/piex-store-simple?embed=1"></iframe>
+
+> ps: stackblitz 对 TS 的支持不是很友好，所以在类型推断上有一点问题。
