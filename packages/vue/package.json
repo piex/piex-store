@@ -1,0 +1,38 @@
+{
+  "name": "@piex-store/vue",
+  "version": "0.0.0-alpha4",
+  "description": "piex-store vue binding",
+  "keywords": [
+    "vuex",
+    "piex-store",
+    "store",
+    "vue"
+  ],
+  "author": "foreverzmy <921255465@qq.com>",
+  "homepage": "https://github.com/piex/piex-store#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piex/piex-store.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/piex/piex-store/issues"
+  },
+  "dependencies": {
+    "vue-hooks": "^0.3.2"
+  }
+}

@@ -11,7 +11,7 @@
     "alwaysStrict": true,
     "pretty": true,
     "allowJs": false,
-    "jsx": "react",
+    "jsx": "preserve",
     "target": "es6",
     "noLib": false,
     "lib": [
