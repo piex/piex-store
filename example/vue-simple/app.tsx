@@ -1,8 +1,14 @@
 import Vue from 'vue';
-import { withHooks } from 'vue-hooks';
-import { useStore } from '@piex-store/vue';
+import { withHooks, useState, useEffect, useRef } from 'vue-hooks';
+import { useStore, setEnv } from '@piex-store/vue';
 
 import githubStore from './store';
+
+setEnv({
+  useState,
+  useEffect,
+  useRef,
+});
 
 const Star = withHooks((h) => {
   const store = useStore(githubStore);

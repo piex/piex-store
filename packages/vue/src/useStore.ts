@@ -1,11 +1,16 @@
-import { useState, useEffect, useRef, Dispatch, SetStateAction } from 'vue-hooks';
+import { Dispatch, SetStateAction } from 'vue-hooks';
+import { useState, useEffect, useRef } from './setEnv';
 
 import { Store } from '@piex-store/core';
 
 type SettersType<S extends Store<{}>> = Dispatch<SetStateAction<S>>;
 
 const useStore = <S extends Store<object>>(store: S): S => {
-  const resolveRef = useRef<(value?: boolean | PromiseLike<boolean>) => void>();
+  if (!useState || !useEffect || !useRef) {
+    throw new Error('Piex Store: must setEnv before useStore');
+  }
+
+  const resolveRef = useRef();
   const listener = new Promise<boolean>((resolve) => {
     resolveRef.current = resolve;
   });
