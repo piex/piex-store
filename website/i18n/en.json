@@ -21,6 +21,10 @@
         "title": "介绍",
         "sidebar_label": "介绍"
       },
+      "api/vue/set-env": {
+        "title": "setEnv",
+        "sidebar_label": "setEnv"
+      },
       "api/vue/use-store": {
         "title": "useStore",
         "sidebar_label": "useStore"
@@ -51,9 +55,7 @@
     },
     "links": {
       "指南": "指南",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "API": "API"
     },
     "categories": {
       "指南": "指南",

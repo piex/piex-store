@@ -30,6 +30,7 @@
         "type": "subcategory",
         "label": "Vue",
         "ids": [
+          "api/vue/set-env",
           "api/vue/use-store"
         ]
       }

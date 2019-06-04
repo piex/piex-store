@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
     title: 'Piex Store', // Title for your website.
-    tagline: 'A Store Management for React & Vue',
+    tagline: '同事支持 React 和 Vue 简单的状态管理工具',
     url: 'https://your-docusaurus-test-site.com', // Your website URL
     baseUrl: '/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
@@ -40,8 +40,8 @@ const siteConfig = {
     headerLinks: [
         { doc: 'intro/intro', label: '指南' },
         { doc: 'api/reference', label: 'API' },
-        { page: 'help', label: 'Help' },
-        { blog: true, label: 'Blog' },
+        // { page: 'help', label: 'Help' },
+        // { blog: true, label: 'Blog' },
     ],
 
     // If you have users set above, you add it here:
@@ -106,7 +106,7 @@ myOtherFont: [
 
     // You may provide arbitrary config keys to be used as needed by your
     // template. For example, if you need your repo's URL...
-    //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl: 'https://github.com/piex/piex-store',
 };
 
 module.exports = siteConfig;

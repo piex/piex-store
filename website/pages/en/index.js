@@ -64,9 +64,9 @@ class HomeSplash extends React.Component {
                 <div className="inner">
                     <ProjectTitle siteConfig={siteConfig} />
                     <PromoSection>
-                        <Button href="#try">Try It Out</Button>
-                        <Button href={docUrl('doc1.html')}>Example Link</Button>
-                        <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+                        <Button href="docs/intro/start">开始</Button>
+                        <Button href="https://stackblitz.com/edit/piex-store-simple?embed=1&file=index.tsx" target="_blank">示例</Button>
+                        {/* <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
                     </PromoSection>
                 </div>
             </SplashContainer>
@@ -96,8 +96,12 @@ class Index extends React.Component {
             <div
                 className="productShowcaseSection paddingBottom"
                 style={{ textAlign: 'center' }}>
-                <h2>Feature Callout</h2>
-                <MarkdownBlock>These are features of this project</MarkdownBlock>
+                <h2>未来规划</h2>
+                <MarkdownBlock>Vue 类型支持</MarkdownBlock>
+                <MarkdownBlock>性能优化</MarkdownBlock>
+                <MarkdownBlock>SSR 支持</MarkdownBlock>
+                <MarkdownBlock>Vue3 支持</MarkdownBlock>
+                <MarkdownBlock>Vuex Devtools 支持</MarkdownBlock>
             </div>
         );
 
@@ -106,9 +110,9 @@ class Index extends React.Component {
                 {[
                     {
                         content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+                            'To make your landing page more attractive, use illustrations! Check out ' +
+                            '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+                            'The illustrations you see on this page are from unDraw.',
                         image: `${baseUrl}img/undraw_code_review.svg`,
                         imageAlign: 'left',
                         title: 'Wonderful SVG Illustrations',
@@ -122,7 +126,7 @@ class Index extends React.Component {
                 {[
                     {
                         content:
-              'This is another description of how this project is useful',
+                            'This is another description of how this project is useful',
                         image: `${baseUrl}img/undraw_note_list.svg`,
                         imageAlign: 'right',
                         title: 'Description',
@@ -136,7 +140,7 @@ class Index extends React.Component {
                 {[
                     {
                         content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+                            'Each new Docusaurus project has **randomly-generated** theme colors.',
                         image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
                         imageAlign: 'right',
                         title: 'Randomly Generated Theme Colors',
@@ -186,7 +190,7 @@ class Index extends React.Component {
                     <div className="logos">{showcase}</div>
                     <div className="more-users">
                         <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
+                            More {siteConfig.title} Users
                         </a>
                     </div>
                 </div>
@@ -197,12 +201,12 @@ class Index extends React.Component {
             <div>
                 <HomeSplash siteConfig={siteConfig} language={language} />
                 <div className="mainContainer">
-                    <Features />
+                    {/* <Features /> */}
                     <FeatureCallout />
-                    <LearnHow />
-                    <TryOut />
-                    <Description />
-                    <Showcase />
+                    {/* <LearnHow /> */}
+                    {/* <TryOut /> */}
+                    {/* <Description /> */}
+                    {/* <Showcase /> */}
                 </div>
             </div>
         );

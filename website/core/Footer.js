@@ -37,14 +37,15 @@ class Footer extends React.Component {
                     </a>
                     <div>
                         <h5>Docs</h5>
-                        <a href={this.docUrl('intro/intro.html', this.props.language)}> 简介 </a>
-                        <a href={this.docUrl('doc2.html', this.props.language)}>开始</a>
-                        <a href={this.docUrl('doc3.html', this.props.language)}>API</a>
+                        {/* <a href={this.docUrl('docs/intro/intro.html', this.props.language)}> 简介 </a> */}
+                        <a href="/docs/intro/intro">简介</a>
+                        <a href="/docs/intro/start">开始</a>
+                        <a href="/docs/api/reference">API</a>
                     </div>
                     <div>
                         <h5>Community</h5>
-                        <a href={this.pageUrl('users.html', this.props.language)}>User Showcase</a>
-                        <a
+                        {/* <a href={this.pageUrl('users.html', this.props.language)}>User Showcase</a> */}
+                        {/* <a
                             href="https://stackoverflow.com/questions/tagged/"
                             target="_blank"
                             rel="noreferrer noopener">
@@ -56,12 +57,12 @@ class Footer extends React.Component {
                             target="_blank"
                             rel="noreferrer noopener">
                             Twitter
-                        </a>
+                        </a> */}
                     </div>
                     <div>
                         <h5>More</h5>
-                        <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-                        <a href="https://github.com/">GitHub</a>
+                        {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
+                        <a href="https://github.com/piex/piex-store">GitHub</a>
                         <a
                             className="github-button"
                             href={this.props.config.repoUrl}
