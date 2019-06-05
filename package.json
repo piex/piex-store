@@ -9,7 +9,8 @@
     "dev:cart": "parcel example/shopping-cart/index.html",
     "dev:tree": "parcel example/tree-view/index.html",
     "dev:vue": "parcel example/vue-simple/index.html",
-    "build": "node rollup.config.js"
+    "build": "node rollup.config.js",
+    "deploy": "gh-pages -d website/build/piex-store"
   },
   "npmClient": "yarn",
   "useWorkspaces": true,
@@ -35,6 +36,7 @@
     "eslint-plugin-eslint-plugin": "^2.1.0",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
+    "gh-pages": "^2.0.1",
     "jest": "^24.8.0",
     "lerna": "^3.14.1",
     "parcel-bundler": "^1.12.3",
