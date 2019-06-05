@@ -1,6 +1,6 @@
 {
   "name": "@piex-store/vue",
-  "version": "0.0.0-alpha5",
+  "version": "0.0.0-alpha6",
   "description": "piex-store vue binding",
   "keywords": [
     "vuex",

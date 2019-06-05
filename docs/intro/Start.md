@@ -73,6 +73,13 @@ console.log(counterStore.state.count); // -> 1
 
 ### 示例
 
+#### React
+
 <iframe height="500px" src="https://stackblitz.com/edit/piex-store-simple?embed=1"></iframe>
+
+#### Vue
+
+<iframe height="500px" src="https://stackblitz.com/edit/piex-store-simple-vue?embed=1"></iframe>
+
 
 > ps: stackblitz 对 TS 的支持不是很友好，所以在类型推断上有一点问题。
