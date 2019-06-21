@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
     title: 'Piex Store', // Title for your website.
-    tagline: '同事支持 React 和 Vue 简单的状态管理工具',
+    tagline: '基于 Hooks 的状态管理工具',
     url: 'https://piex.github.io/piex-store/', // Your website URL
     baseUrl: '/piex-store/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
